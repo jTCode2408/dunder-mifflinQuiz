@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 
 
-const Results =()=>{
+const Results =(props)=>{
     return (
         <div>Quiz Results!</div>
     )
