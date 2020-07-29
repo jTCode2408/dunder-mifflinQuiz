@@ -152,7 +152,7 @@ export const questions= {
         "answerSelectionType": "single",
         "answers": [
             "Stanley",
-            "Micharl",
+            "Michael",
             "Kevin",
             "Darryl"
        
@@ -208,7 +208,7 @@ export const questions= {
         "correctAnswer": "3",
         "messageForCorrectAnswer": "Smartest Dundee goes to: You!",
         "messageForIncorrectAnswer": "No, but I hear the beet farm is lovely this time of year",
-        "point": "3"
+        "point": "1"
       },
       {
         "question":	"I wish there was a way to know you’re in the good old days, before you’ve actually left them.",
@@ -224,7 +224,7 @@ export const questions= {
         "correctAnswer": "2",
         "messageForCorrectAnswer": "You betcha!",
         "messageForIncorrectAnswer": "No, but it's ok to just sit there and cry ",
-        "point": "2"
+        "point": "1"
       },
       {
         "question":	"Sorry I annoyed you with my friendship.",
@@ -408,13 +408,13 @@ export const questions= {
 
     "appLocale": {
         "landingHeaderText": "<questionLength> Quotes",
-        "question": "Quote",
+        "question": "Quote:",
         "startQuizBtn": "Let's Do It!",
         "resultFilterAll": "All",
         "resultFilterCorrect": "Correct",
         "resultFilterIncorrect": "Incorrect",
         "nextQuestionBtn": "Next",
-        "resultPageHeaderText": "Uh oh, The Chili's is kicking us out. You got <correctIndexLength> Dundee's! ."
+        "resultPageHeaderText": "And The Winner is..."
       } 
   } 
 
