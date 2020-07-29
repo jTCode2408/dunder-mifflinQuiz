@@ -1,9 +1,6 @@
-import React, {useState, useEffect} from 'react';
-import axios from 'axios';
-
 export const questions= {
     "quizTitle": "The Office Quotes Quiz",
-    "quizSynopsis": "How much of a 'Dunder-Mifflinite' are you? Take the quiz to guess who said these quotes and see how many Dundee's you can win!",
+    "quizSynopsis": "Guess who the quote is from to win Dundee's!",
     "questions": [
       {
         "question": "If I had a gun with two bullets and I was in a room with Hitler, Bin Laden, and Toby, I would shoot Toby twice.",
