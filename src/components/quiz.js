@@ -1,26 +1,31 @@
 import React, {useState, useEffect, useReducer} from 'react';
 import axios from 'axios';
-import Questions from './questions';
+import Quiz from 'react-quiz-component';
+import {questions} from './questions';
+import Results from './results';
 
+const QuizMain=()=>{
+    const lowMessage="";
+    const midMessage="";
+    const highMessage="Wow, you must watch this show all the time. How many Dunder Mifflin shorts you own?";
 
-const Quiz=(props)=>{
-    const [quotes, setQuotes]=useState();
-    const [score, setScore] =useState(0);
-    const [answer, setAnswer] =useState()
-   
-    const countAnswer=()=>{
-
-    }
-
+    const renderCustomResultPage = (obj) => {
+        console.log("Results OBJ", obj);
+        return (
+          <div className="results">
+          "Uh oh, The Chili's is kicking us out. You got {obj.correctPoints} Dundee's out of {obj.totalPoints}! .
+          </div>
+        )
+      }
     return(
-        <div>The office quotes quiz
-             <Questions/>
-             
+        <>
+        <div className="quiz-cont">
+              <Quiz quiz={questions} shuffle={true} showInstantFeedback={true} showDefaultResult={false}  customResultPage={renderCustomResultPage} />
+                    
         </div>
-
-
+        </>
     )
-    }
+}
 
+export default QuizMain;
 
-    export default Quiz;

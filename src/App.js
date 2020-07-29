@@ -2,8 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 //API LINK:https://www.officeapi.dev/
-import Quiz from './components/quiz';
-
+import QuizMain from './components/quiz'
 function App() {
   return (
     <div className="App">
@@ -11,7 +10,7 @@ function App() {
       Who said that?(The Office version)
       </header>
 
-      <Quiz/>
+      <QuizMain/>
     </div>
   );
 }
