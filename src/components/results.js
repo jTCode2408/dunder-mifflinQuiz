@@ -7,3 +7,6 @@ const Results =(props)=>{
         <div>Quiz Results!</div>
     )
 }
+
+
+export default Results;
