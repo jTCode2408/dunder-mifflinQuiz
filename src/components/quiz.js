@@ -1,26 +1,24 @@
 import React, {useState, useEffect, useReducer} from 'react';
 import axios from 'axios';
-import Questions from './questions';
+import Quiz from 'react-quiz-component';
+import {questions} from './questions';
 
-
-const Quiz=(props)=>{
-    const [quotes, setQuotes]=useState();
-    const [score, setScore] =useState(0);
-    const [answer, setAnswer] =useState()
-   
-    const countAnswer=()=>{
-
-    }
-
+const QuizMain=()=>{
+    const renderCustomResultPage = (obj) => {
+        console.log("Results OBJ", obj);
+        return (
+          <div>
+            This is a custom result page. You can use obj to render your custom result page
+          </div>
+        )
+      }
     return(
-        <div>The office quotes quiz
-             <Questions/>
-             
+        <div>
+              <Quiz quiz={questions} shuffle={true} showInstantFeedback={true} showDefaultResult={false}  customResultPage={renderCustomResultPage} />
+                    
         </div>
-
-
     )
-    }
+}
 
+export default QuizMain;
 
-    export default Quiz;
