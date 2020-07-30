@@ -1,17 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-//API LINK:https://www.officeapi.dev/
-import QuizMain from './components/quiz'
+import {Header, AppStyle, Title, Title2} from './components/styles';
+import {Route, Switch} from 'react-router-dom';
+import QuizMain from './components/quiz';
+import Home from './components/home';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      Who said that?(The Office version)
-      </header>
+    <AppStyle>
+     
+      <Header>
+        
+   <Title> Who Said That ?</Title> 
+    <Title2> (The Office Version) </Title2>
+      </Header>
+    
+ 
+<Switch>
+  
+    <Route exact path="/" component={Home}></Route>
+  <Route exact path ="/quiz" component={QuizMain}>
 
-      <QuizMain/>
-    </div>
+    </Route>
+       
+  </Switch>
+ 
+
+    </AppStyle>
   );
 }
 
