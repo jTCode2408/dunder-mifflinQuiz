@@ -1,42 +1,31 @@
 import React from 'react';
-import './App.css';
-import {Route, Link, Switch} from 'react-router-dom';
-import QuizMain from './components/quiz'
+import {Header, AppStyle, Title, Title2} from './components/styles';
+import {Route, Switch} from 'react-router-dom';
+import QuizMain from './components/quiz';
+import Home from './components/home';
+
 function App() {
   return (
-    <div className="App">
+    <AppStyle>
      
-      <header className="App-header">
+      <Header>
         
-      Who said that?(The Office version)
-
-      </header>
+   <Title> Who Said That ?</Title> 
+    <Title2> (The Office Version) </Title2>
+      </Header>
     
-      <div className="intro">  
-  
-"How much of a 'Dunder-Mifflinite' are you? Take the quiz to guess who said these quotes and see how many Dundee's you can win!
-
-</div>
-
-
  
 <Switch>
   
-    <Route path="/"></Route>
-  <Route path ="/quiz">
-    <QuizMain/>
-    </Route>
-    
-    <Link to="/quiz">
-  <button>
-      Take The Quiz
-      </button>
-      </Link>  
-   
-  </Switch>
-    
+    <Route exact path="/" component={Home}></Route>
+  <Route exact path ="/quiz" component={QuizMain}>
 
-    </div>
+    </Route>
+       
+  </Switch>
+ 
+
+    </AppStyle>
   );
 }
 
