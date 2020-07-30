@@ -7,9 +7,11 @@ const Home=()=>{
         <HomeCont>
         <Intro>  
   
-      <Title3>How much of a 'Dunder-Mifflinite' are you? </Title3>
-      <IntroText> Guess who said these quotes and see how many Dundee's you can win!</IntroText>  
-<ButtonDiv>
+      
+    
+
+        </Intro>
+        <ButtonDiv>
         <Link to="/quiz">
 
   <GoButton>
@@ -17,7 +19,6 @@ const Home=()=>{
       </GoButton>
       </Link>  
       </ButtonDiv>
-        </Intro>
         </HomeCont>
     )
 }

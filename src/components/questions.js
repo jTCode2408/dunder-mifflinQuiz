@@ -1,6 +1,6 @@
 export const questions= {
     "quizTitle": "The Office Quotes Quiz",
-    "quizSynopsis": "Guess who the quote is from to win Dundee's!",
+    "quizSynopsis": "Guess who the quote is from to win Dundie's!",
     "questions": [
       {
         "question": "If I had a gun with two bullets and I was in a room with Hitler, Bin Laden, and Toby, I would shoot Toby twice.",
@@ -13,8 +13,8 @@ export const questions= {
           "Pam"
         ],
         "correctAnswer": "2",
-        "messageForCorrectAnswer": "Dundee for you!.",
-        "messageForIncorrectAnswer": "No Dundee, but at least you didn't get banned from Chili's.",
+        "messageForCorrectAnswer": "Dundie for you!.",
+        "messageForIncorrectAnswer": "No Dundie, but at least you didn't get banned from Chili's.",
         "point": "1"
       },
 
@@ -29,8 +29,8 @@ export const questions= {
           "Michael"
         ],
         "correctAnswer": "4",
-        "messageForCorrectAnswer": "Dundee for you!",
-        "messageForIncorrectAnswer": "No Dundee, but at least you didn't get banned from Chili's.",
+        "messageForCorrectAnswer": "Dundie for you!",
+        "messageForIncorrectAnswer": "No Dundie, but at least you didn't get banned from Chili's.",
         "point": "1"
       },
       {
@@ -75,7 +75,7 @@ export const questions= {
        
         ],
         "correctAnswer": "1",
-        "messageForCorrectAnswer": "Smartest Dundee goes to: You!",
+        "messageForCorrectAnswer": "Smartest Dundie goes to: You!",
         "messageForIncorrectAnswer": "Not this one",
         "point": "1"
       },
@@ -91,8 +91,8 @@ export const questions= {
        
         ],
         "correctAnswer": "3",
-        "messageForCorrectAnswer": "Dundee for you!.",
-        "messageForIncorrectAnswer": "No Dundee, but at least you didn't get banned from Chili's.",
+        "messageForCorrectAnswer": "Dundie for you!.",
+        "messageForIncorrectAnswer": "No Dundie, but at least you didn't get banned from Chili's.",
         "point": "1"
       },
       {
@@ -124,7 +124,7 @@ export const questions= {
         ],
         "correctAnswer": "1",
         "messageForCorrectAnswer": "You got it, crazy!",
-        "messageForIncorrectAnswer": "No Dundee, but Nessy is still out there!",
+        "messageForIncorrectAnswer": "No Dundie, but Nessy is still out there!",
         "point": "1"
       },
       {
@@ -155,8 +155,8 @@ export const questions= {
        
         ],
         "correctAnswer": "1",
-        "messageForCorrectAnswer": "Dundee, AND a Pretzel for you!",
-        "messageForIncorrectAnswer": "No Dundee, but the Pretzel guy is still here!",
+        "messageForCorrectAnswer": "Dundie, AND a Pretzel for you!",
+        "messageForIncorrectAnswer": "No Dundie, but the Pretzel guy is still here!",
         "point": "1"
       },
       {
@@ -171,7 +171,7 @@ export const questions= {
        
         ],
         "correctAnswer": "2",
-        "messageForCorrectAnswer": "Dundee for you!",
+        "messageForCorrectAnswer": "Dundie for you!",
         "messageForIncorrectAnswer": "Not this one ",
         "point": "1"
       },
@@ -203,7 +203,7 @@ export const questions= {
        
         ],
         "correctAnswer": "3",
-        "messageForCorrectAnswer": "Smartest Dundee goes to: You!",
+        "messageForCorrectAnswer": "Smartest Dundie goes to: You!",
         "messageForIncorrectAnswer": "No, but I hear the beet farm is lovely this time of year",
         "point": "1"
       },
@@ -235,7 +235,7 @@ export const questions= {
        
         ],
         "correctAnswer": "4",
-        "messageForCorrectAnswer": "Dundee for you, friend",
+        "messageForCorrectAnswer": "Dundie for you, friend",
         "messageForIncorrectAnswer": "No sorry, we're still friends right? ",
         "point": "1"
       },
@@ -267,8 +267,8 @@ export const questions= {
        
         ],
         "correctAnswer": "4",
-        "messageForCorrectAnswer": "Add a Dundee!",
-        "messageForIncorrectAnswer": "No Dundee this time ",
+        "messageForCorrectAnswer": "Add a Dundie!",
+        "messageForIncorrectAnswer": "No Dundie this time ",
         "point": "1"
       },
       {
@@ -283,7 +283,7 @@ export const questions= {
        
         ],
         "correctAnswer": "3",
-        "messageForCorrectAnswer": "Dundee up!",
+        "messageForCorrectAnswer": "Dundie up!",
         "messageForIncorrectAnswer": "Not this one, cool cats and kittens ",
         "point": "1"
       },
@@ -299,8 +299,8 @@ export const questions= {
        
         ],
         "correctAnswer": "1",
-        "messageForCorrectAnswer": "You've got a Dundee",
-        "messageForIncorrectAnswer": "No Dundee this time",
+        "messageForCorrectAnswer": "You've got a Dundie",
+        "messageForIncorrectAnswer": "No Dundie this time",
         "point": "1"
       },
       {
@@ -315,7 +315,7 @@ export const questions= {
        
         ],
         "correctAnswer": "3",
-        "messageForCorrectAnswer": "Smartest Dundee goes to, You!",
+        "messageForCorrectAnswer": "Smartest Dundie goes to, You!",
         "messageForIncorrectAnswer": "Aw, not this one ",
         "point": "1"
       },
@@ -347,7 +347,7 @@ export const questions= {
        
         ],
         "correctAnswer": "2",
-        "messageForCorrectAnswer": "Smile, you've got a Dundee!",
+        "messageForCorrectAnswer": "Smile, you've got a Dundie!",
         "messageForIncorrectAnswer": "Not this one, but we're still having fun huh? ",
         "point": "1"
       },
@@ -363,7 +363,7 @@ export const questions= {
        
         ],
         "correctAnswer": "2",
-        "messageForCorrectAnswer": "Alright, add a Dundee!",
+        "messageForCorrectAnswer": "Alright, add a Dundie!",
         "messageForIncorrectAnswer": "Just missed it! ",
         "point": "1"
       },
@@ -380,7 +380,7 @@ export const questions= {
         ],
         "correctAnswer": "4",
         "messageForCorrectAnswer": "You betcha!",
-        "messageForIncorrectAnswer": "Not this Dundee",
+        "messageForIncorrectAnswer": "Not this Dundie",
         "point": "1"
       },
       {
@@ -395,7 +395,7 @@ export const questions= {
        
         ],
         "correctAnswer": "1",
-        "messageForCorrectAnswer": "Have a Dundee!",
+        "messageForCorrectAnswer": "Have a Dundie!",
         "messageForIncorrectAnswer": "Aw, almost got it",
         "point": "1"
       },
