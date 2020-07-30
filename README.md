@@ -16,4 +16,5 @@ This is a quiz-game for fans of one of the greatest American telivision series e
 *React-Quiz-Component*
 
 
-* More quotes to come, as well as adding episode specific trivia!
+
+### More quotes to come, as well as adding episode specific trivia!
