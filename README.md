@@ -15,7 +15,7 @@ https://dunder-mifflin-quiz.vercel.app/
 
 *Styled Components*
 
-*React-Quiz-Component*
+*React-Quiz-Component* (https://www.npmjs.com/package/react-quiz-component)
 
 
 
