@@ -12,7 +12,9 @@ https://dunder-mifflin-quiz.vercel.app/
 
 ## Built With
 *ReactJS*
+
 *Styled Components*
+
 *React-Quiz-Component*
 
 
