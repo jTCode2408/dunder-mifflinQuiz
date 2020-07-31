@@ -11,7 +11,7 @@ function App() {
       <Header>
         
    <Title> Who Said That ?</Title> 
-    <Title2> (The Office Version) </Title2>
+    <Title2> (the office version) </Title2>
       </Header>
     
  
