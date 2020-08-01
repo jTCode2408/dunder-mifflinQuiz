@@ -93,11 +93,12 @@ transform: scale(1.5,1);
 `
 export const MainCont=styled.div`
 display:flex;
-flex-direction:row;
-flex-wrap:wrap;
 justify-content:center;
+flex-wrap:wrap;
+
 align-content:center;
-max-height:100%;
+font-size:1.3rem;
+font-family: 'Arbutus Slab', serif;
 margin:0 auto;
 
 `
@@ -106,9 +107,9 @@ export const QuizCont=styled.div`
 display:flex;
 justify-content:center;
 align-content:center;
-font-size:1.3rem;
+
 font-family: 'Arbutus Slab', serif;
-margin:0 auto;
+width:100%;
 
 `
 

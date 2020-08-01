@@ -23,13 +23,14 @@ const QuizMain=()=>{
     return(
         <>
        
-   <img src={mscott} alt="michael scott holding dundie"></img>
+ <MainCont>
+ <img src={mscott} alt="michael scott holding dundie"></img>    
         <QuizCont>
-       
+          
               <Quiz quiz={questions} shuffle={true} showInstantFeedback={true} showDefaultResult={false}  customResultPage={renderCustomResultPage} />
                     
         </QuizCont>
-  
+        </MainCont>
         </>
     )
 }
