@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import dmImg from '../assets/dmImg.png';
+import mscott from '../assets/mscott.jpg';
 
 export const AppStyle=styled.div`
 text-align: center;
 margin:0 auto;
 min-height:100vh;
-max-height:100vh;
   
 `
 export const Title=styled.h1`
@@ -60,16 +60,6 @@ font-size:2.5rem;
 
 `
 
-export const Title3=styled.h3`
-width:25%;
-margin-left:1%;
-`
-
-export const IntroText =styled.p`
-width:25%;
-margin-right:1%;
-
-`
 
 
 export const ButtonDiv=styled.div`
@@ -101,15 +91,26 @@ transform: scale(1.5,1);
 
 
 `
-
-export const QuizCont=styled.div`
-max-width:100%;
-margin:1% 3% 1% 3%;
+export const MainCont=styled.div`
 display:flex;
 justify-content:center;
+flex-wrap:wrap;
+
 align-content:center;
 font-size:1.3rem;
 font-family: 'Arbutus Slab', serif;
+margin:0 auto;
+
+`
+
+export const QuizCont=styled.div`
+display:flex;
+justify-content:center;
+align-content:center;
+
+font-family: 'Arbutus Slab', serif;
+width:100%;
+
 `
 
 export const ResultsCont=styled.div`

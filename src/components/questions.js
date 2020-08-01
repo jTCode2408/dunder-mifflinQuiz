@@ -1,6 +1,6 @@
 export const questions= {
     "quizTitle": "The Office Quotes Quiz",
-    "quizSynopsis": "Guess who the quote is from to win Dundie's!",
+    "quizSynopsis": "Guess who the quote, win Dundie's!",
     "questions": [
       {
         "question": "If I had a gun with two bullets and I was in a room with Hitler, Bin Laden, and Toby, I would shoot Toby twice.",
