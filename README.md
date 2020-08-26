@@ -34,7 +34,10 @@ https://dunder-mifflin-quiz.vercel.app/
 
 ### Specifications: 
 `Quiz.js` contains code for ReactJS Quiz Component
+
 `Home.js` contains initial 'landing page' code
+
 `Questions.js` contains questions for quiz
+
 `Styles.js` contains styles for app
 
