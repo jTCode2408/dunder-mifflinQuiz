@@ -7,10 +7,14 @@ This is a quiz-game for fans of one of the greatest American television series e
 https://dunder-mifflin-quiz.vercel.app/
 
 
-## Rules:
-*There is only one rule* 
+<img src="quiz-ss.png" alt="game screenshot">
 
-* Guess which character said the quote, win a Dundee!
+
+## Rules:
+* There is only one rule:
+
+*Guess which character said the quote, win a Dundee!*
+
 
 
 ## Built With:
